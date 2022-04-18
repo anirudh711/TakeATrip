@@ -20,10 +20,18 @@
       "supportsTablet": true
     },
     "android": {
+      "package":"travel.ankor.app",
+      "versionCode":1,
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyDv9-w80n4mXR3BMw0ck38mPgjLyhDlsDk"
+        }
+      },
+      "package": "travel.ankor.app"
     },
     "web": {
       "favicon": "./assets/favicon.png"
